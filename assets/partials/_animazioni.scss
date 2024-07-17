@@ -1,0 +1,18 @@
+@keyframes spostamento {
+    0% {
+      
+      transform: translateX(0em);
+    }
+    50% {
+      
+      transform: translateX(5em);
+    }
+    100% {
+        transform: translateX(0em);
+    }
+  }
+  main{
+    img{
+animation: spostamento 6s linear 0s infinite;
+    }
+  }

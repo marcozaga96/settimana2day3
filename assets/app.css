@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  color: #f4f4f4;
+}
+
+header {
+  background-color: #640fc5;
+}
+
+#hero h1 {
+  color: black;
+}
+
+button {
+  width: 5%;
+  height: 5%;
+  width: 5rem;
+  height: 3rem;
+  margin: 1rem;
+}
+
+.btn1 {
+  background-color: #0e3cff;
+}
+
+.btn2 {
+  background-color: #ff8700;
+}
+
+.btn3 {
+  background-color: #4caf50;
+}
+
+nav img {
+  width: 15%;
+}
+nav a {
+  font-size: 1.5rem;
+}
+
+#hero h1 {
+  font-size: 4.5rem;
+}
+#hero p {
+  font-size: 1.5rem;
+  width: 50%;
+}
+#hero button {
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+nav {
+  display: flex;
+  padding: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10rem;
+}
+nav #container {
+  display: flex;
+  width: 20%;
+  justify-content: space-evenly;
+}
+nav #container a {
+  text-decoration: none;
+}
+
+#hero {
+  padding: 1.5rem;
+  margin: 0 10rem;
+  position: relative;
+  margin-bottom: 10rem;
+}
+#hero h1, #hero p {
+  padding: 1.5rem;
+}
+#hero img {
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  width: 24%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+main {
+  display: flex;
+  padding: 1.5rem;
+}
+main img {
+  width: 24%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+@keyframes spostamento {
+  0% {
+    transform: translateX(0em);
+  }
+  50% {
+    transform: translateX(5em);
+  }
+  100% {
+    transform: translateX(0em);
+  }
+}
+main img {
+  animation: spostamento 6s linear 0s infinite;
+}/*# sourceMappingURL=app.css.map */

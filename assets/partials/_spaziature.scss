@@ -1,0 +1,47 @@
+$padd: 1.5rem;
+$mrg:0 10rem;
+$imgWidth: 24%;
+
+nav{
+    display: flex;
+    padding: $padd;
+    align-items: center;
+    justify-content: space-between;
+    margin: $mrg ;
+    #container{
+        display: flex;
+        width: 20%;
+        justify-content: space-evenly;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+#hero{
+    padding: $padd;
+    margin:$mrg;
+    position: relative;
+    margin-bottom: 10rem;
+    h1, p{
+        padding: $padd;
+    }
+    img{
+        position: absolute;
+        right: 0;
+        bottom: -40px;
+        width: $imgWidth;
+        border-radius: 20px;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }
+}
+main{
+    display: flex;
+    
+    padding: $padd;
+
+    img{
+        width: $imgWidth;
+        border-radius: 20px;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }
+}
